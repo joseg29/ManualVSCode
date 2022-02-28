@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(wall.jpg);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 200%;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+li {
+  font-size: 20px;
+  background-color: blue;
+  display: inline-block;
+  text-align: center;
+  margin-right: -4px;
+  padding: 0px 20px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+li:hover {
+  color: black;
+  background-color: deepskyblue;
+}
+#tiger {
+  height: 500px;
+  width: 400px;
+  margin-left: 35%;
+}
